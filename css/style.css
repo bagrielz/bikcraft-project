@@ -1,2 +1,26 @@
-@import url("reset.css");
-@import url("header.css");
+/* Global */
+@import url("global/reset.css");
+
+/* Utilities */
+@import url("utilities/components.css");
+@import url("utilities/typography.css");
+@import url("utilities/colors.css");
+
+/* Global */
+@import url("global/header.css");
+@import url("global/footer.css");
+
+/* Home */
+@import url("home/intro.css");
+@import url("home/technology.css");
+@import url("home/partners.css");
+@import url("home/testimonial.css");
+
+/* Bicycles */
+@import url("bicycles/bike-list.css");
+
+/* Isnurances */
+@import url("insurance/insurance.css");
+
+/* Terms */
+@import url("terms/terms.css");

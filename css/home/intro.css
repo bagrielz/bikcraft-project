@@ -1,0 +1,54 @@
+.intro-bg {
+  background: var(--color-12);
+  box-shadow: inset 0 -7.5rem var(--color-0);
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 2.5rem;
+}
+
+.intro-info {
+  margin-bottom: 12.5rem;
+  align-self: end;
+}
+
+.intro-info h1 {
+  margin-bottom: 2rem;
+}
+
+.intro-info p {
+  margin-bottom: 1.25rem;
+}
+
+.intro-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 800px) {
+  .intro-bg {
+    padding-top: 2.5rem;
+    box-shadow: inset 0 -3.75rem var(--color-0);
+  }
+
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .intro-info {
+    margin-bottom: 0;
+  }
+
+  .intro-info h1 {
+    margin-bottom: 1rem;
+  }
+
+  .intro-img img {
+    height: 300px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+.terms {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.terms h2 {
+  margin-bottom: 1.25rem;
+}
+
+.terms p + h2 {
+  margin-top: 2.5rem;
+}
+
+.terms p {
+  max-width: 75ch;
+  margin-bottom: 1.5rem;
+}
