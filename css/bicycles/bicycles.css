@@ -1,0 +1,109 @@
+.bike-bg {
+  background: var(--color-11);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.bicycles-bg:nth-child(3) {
+  background: linear-gradient(to right, var(--color-0) 30%, var(--color-11) 0%);
+}
+
+.bicycles {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.bicycles-img {
+  display: grid;
+  align-self: center;
+}
+
+.bicycles-img img {
+  grid-area: 1/1;
+}
+
+.bicycles-img span {
+  margin-top: 1.25rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  grid-area: 1/1;
+  place-self: start end;
+  display: inline-block;
+  background: var(--color-12);
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.bicycles-info {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+
+.bicycles h2,
+.bicycles p {
+  grid-column: 1/-1;
+}
+
+.bicycles h2 {
+  margin-bottom: 1.25rem;
+}
+
+.bicycles h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background: var(--color-p1);
+  margin-bottom: 0.5rem;
+}
+
+.bicycles p {
+  margin-bottom: 2rem;
+}
+
+.bicycles a {
+  place-self: end;
+}
+
+.bicycles li {
+  display: flex;
+  align-items: center;
+}
+
+.bicycles li + li {
+  margin-top: 1rem;
+}
+
+.bicycles-info img {
+  width: 24px;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .bicycles-bg:nth-child(3) {
+    background: var(--color-11);
+  }
+
+  .bicycles {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .bicycles-info {
+    grid-template-columns: 1fr;
+  }
+
+  .bicycles ul {
+    margin-bottom: 2rem;
+  }
+
+  .bicycles a {
+    place-self: start;
+  }
+}

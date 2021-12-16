@@ -1,0 +1,125 @@
+#bicycles .title p {
+  text-transform: uppercase;
+}
+
+#bicycles .bike-list ul {
+  padding: 0 0 1.25rem 0;
+}
+
+.bike {
+  margin: 3.75rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 2.5rem;
+}
+
+.bike-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.bike-imgs img {
+  flex: 1;
+  min-width: 200px;
+}
+
+.bike-imgs img:first-child {
+  min-width: 100%;
+}
+
+.bike-info > p {
+  margin-bottom: 2rem;
+}
+
+.bike-buy {
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+  gap: 0.5rem 0.75rem;
+}
+
+.bike-buy a {
+  grid-row: span 2;
+}
+
+.bike-buy span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--color-12);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.bike-info > h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.015rem;
+  margin-bottom: 0.75rem;
+}
+
+.bike-list-page,
+.bike-token {
+  padding: 2rem;
+  background: var(--color-12);
+  border-radius: 0.25rem;
+}
+
+.bike-list-page {
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.bike-list-page img {
+  width: 24px;
+  margin-bottom: 0.5rem;
+}
+
+.bike-list-page h3 {
+  margin-bottom: 0.5rem;
+}
+
+.bike-token li {
+  margin: 0.25rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-11);
+}
+
+.bike-token li:last-child {
+  border-bottom: none;
+}
+
+.bike-token span {
+  color: var(--color-6);
+}
+
+@media (max-width: 800px) {
+  .bike {
+    grid-template-columns: 1fr;
+    margin: 2.5rem 0;
+  }
+
+  .bike-imgs {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .bike-list-page {
+    grid-template-columns: 1fr;
+  }
+
+  .bike-buy {
+    grid-template-columns: 1fr;
+  }
+
+  .bike-buy a {
+    margin-bottom: 0.5rem;
+  }
+}

@@ -1,0 +1,42 @@
+.benefits-bg {
+  background: var(--color-12);
+}
+
+.benefits {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.benefits h2 {
+  margin-bottom: 3.75rem;
+}
+
+.benefits ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 2.5rem 5rem;
+}
+
+.benefits h3,
+.benefits img {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .benefits {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+
+  .benefits h2 {
+    margin-bottom: 2.5rem;
+  }
+
+  .benefits ul {
+    gap: 1.25rem;
+  }
+
+  .benefits ul li img {
+    width: 24px;
+  }
+}

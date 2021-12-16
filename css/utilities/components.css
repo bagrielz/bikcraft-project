@@ -30,6 +30,25 @@
   background: var(--color-9);
 }
 
+.btn.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.btn.arrow::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: .75rem;
+  background: url(../../img/icones/seta.svg);
+  transition: transform .2s;
+}
+
+.btn.arrow:hover::after {
+  transform: translateX(4px);
+}
+
 @media (max-width: 800px) {
   .intro-info a {
     padding: 0.75rem 1rem;

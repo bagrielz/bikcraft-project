@@ -16,11 +16,18 @@
 @import url("home/partners.css");
 @import url("home/testimonial.css");
 
+/* Terms */
+@import url("terms/terms.css");
+
 /* Bicycles */
 @import url("bicycles/bike-list.css");
+@import url("bicycles/bicycles.css");
+
+/* Bike */
+@import url("bike/bike.css");
+@import url("bike/bike-insurance.css");
 
 /* Isnurances */
 @import url("insurance/insurance.css");
-
-/* Terms */
-@import url("terms/terms.css");
+@import url("insurance/benefits.css");
+@import url("insurance/questions.css");
