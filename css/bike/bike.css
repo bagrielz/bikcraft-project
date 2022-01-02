@@ -23,6 +23,7 @@
 .bike-imgs img {
   flex: 1;
   min-width: 200px;
+  cursor: pointer;
 }
 
 .bike-imgs img:first-child {

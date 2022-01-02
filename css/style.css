@@ -6,6 +6,7 @@
 @import url("utilities/typography.css");
 @import url("utilities/colors.css");
 @import url("utilities/form.css");
+@import url("utilities/animation.css");
 
 /* Global */
 @import url("global/header.css");

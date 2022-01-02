@@ -16,15 +16,18 @@
   background: var(--color-1);
 }
 
-.questions dt {
+.questions button {
+  width: 100%;
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 0.5rem;
+  background: none;
+  text-align: left;
   cursor: pointer;
 }
 
-.questions dt::before {
+.questions button::before {
   content: "";
   display: inline-block;
   width: 12px;
@@ -32,18 +35,29 @@
   background: var(--color-p1);
 }
 
-.questions dt::after {
+.questions button::after {
   content: "";
   display: inline-block;
   width: 14px;
   height: 6px;
   background: url(../../img/icones/seta-abrir.svg);
+  transition: 0.3s;
 }
 
-.questions dd {
+.questions button:hover::after,
+.questions button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+
+.js .questions dd {
   max-width: 80ch;
-  margin-left: 1.25rem;
+  margin-left: 1.5rem;
   margin-top: 1rem;
+  display: none;
+}
+
+.js .questions dd.active {
+  display: block;
 }
 
 @media (max-width: 800px) {

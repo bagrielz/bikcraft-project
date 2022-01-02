@@ -8,14 +8,17 @@
   <meta name="description"
     content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
   <title>Bikcraft - Bicicletas Elétricas</title>
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
     rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
+
 
 <body>
   <header class="header-bg">
@@ -36,12 +39,13 @@
   <main class="intro-bg c-0">
     <div class="intro container">
       <div class="intro-info">
-        <h1 class="font-1-xxl">Bicicletas feitas sob medida<span class="c-p1">.</span></h1>
-        <p class="font-2-l c-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore
+        <h1 class="font-1-xxl fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="c-p1">.</span></h1>
+        <p class="font-2-l c-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas
+          sob medida para você. Explore
           o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="btn font-1-m-b" href="./bicycles.html">Escolha a sua</a>
+        <a class="btn font-1-m-b fadeInDown" data-anime="600" href="./bicycles.html">Escolha a sua</a>
       </div>
-      <picture class="intro-img">
+      <picture class="intro-img fadeInDown" data-anime="800">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica Preta">
       </picture>
@@ -199,6 +203,9 @@
       <p class="footer-copy font-2-m c-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

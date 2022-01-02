@@ -60,6 +60,10 @@
   border-radius: 0.25rem;
   font: 400 1rem/1.5 "Poppins", sans-serif;
   cursor: pointer;
+}
+
+.budget-product label,
+.budget-info label {
   transition: 0.3s;
 }
 

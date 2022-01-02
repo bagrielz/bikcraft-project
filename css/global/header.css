@@ -38,7 +38,8 @@
   transition: 0.3s;
 }
 
-.header-nav a:hover:after {
+.header-nav a:hover::after,
+.header-nav a.active::after {
   width: 100%;
 }
 

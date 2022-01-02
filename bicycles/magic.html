@@ -7,14 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Página de informações da Bikcraft Magic Might.">
     <title>Bikcraft - Magic Might</title>
-    <link rel="preload" href="../css/style.css" as="style">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="../css/style.min.css" as="style">
+    <link rel="stylesheet" href="../css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
+    <script>document.documentElement.add('js');</script>
+    <script>document.documentElement.classList.add('js');</script>
 </head>
+
 
 <body id="bicycles">
     <header class="header-bg">
@@ -40,15 +44,15 @@
             </div>
             <div class="bike">
                 <div class="bike-imgs">
-                    <img src="../img/bicicleta/nimbus2.jpg" alt="Bicicleta Nimbus Preta">
-                    <img src="../img/bicicleta/nimbus1.jpg" alt="Bicicleta Nimbus Preta">
-                    <img src="../img/bicicleta/nimbus3.jpg" alt="Bicicleta Nimbus Branca">
+                    <img src="../img/bicicleta/nimbus3.jpg" alt="Bicicleta 1">
+                    <img src="../img/bicicleta/nimbus1.jpg" alt="Bicicleta 2">
+                    <img src="../img/bicicleta/nimbus2.jpg" alt="Bicicleta 3">
                 </div>
                 <div class="bike-info">
                     <p class="font-2-l c-5">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem
                         equipada com os melhores acessórios, o que garante maior velocidade.</p>
                     <div class="bike-buy">
-                        <a class="btn font-1-m-b" href="../budget.html">Comprar agora</a>
+                        <a class="btn font-1-m-b" href="../budget.html?type=bikcraft&product=magic">Comprar agora</a>
                         <span class="font-1-xs c-6"><img src="../img/icones/entrega.svg" alt="">entrega em 5
                             dias</span>
                         <span class="font-1-xs c-6"><img src="../img/icones/estoque.svg" alt="">18 em estoque</span>
@@ -162,6 +166,8 @@
             <p class="footer-copy font-2-m c-6">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
