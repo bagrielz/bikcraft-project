@@ -48,7 +48,6 @@
   .footer > img {
     display: none;
   }
-
   .footer {
     grid-template-columns: 1fr 1fr;
   }
@@ -59,7 +58,6 @@
     grid-template-columns: 1fr;
     gap: 3.75rem;
   }
-
   .footer-copy {
     margin-top: 0;
   }

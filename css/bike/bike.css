@@ -105,7 +105,6 @@
     grid-template-columns: 1fr;
     margin: 2.5rem 0;
   }
-
   .bike-imgs {
     grid-row: 2;
   }
@@ -115,11 +114,9 @@
   .bike-list-page {
     grid-template-columns: 1fr;
   }
-
   .bike-buy {
     grid-template-columns: 1fr;
   }
-
   .bike-buy a {
     margin-bottom: 0.5rem;
   }

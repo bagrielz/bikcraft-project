@@ -52,11 +52,9 @@
     padding-bottom: 3.75rem;
     gap: 1.25rem;
   }
-
   .store h2 {
     margin-bottom: 2rem;
   }
-
   .store-info {
     grid-template-columns: 1fr;
   }

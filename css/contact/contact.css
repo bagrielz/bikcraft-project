@@ -72,15 +72,12 @@
   .contact {
     grid-template-columns: 1fr;
   }
-
   .contact-data {
     border-radius: 0.25rem 0.25rem 0 0;
   }
-
   .form {
     border-radius: 0 0 0.25rem 0.25rem;
   }
-
   .contact-data h2,
   .contact-means a:last-child {
     margin-bottom: 2rem;

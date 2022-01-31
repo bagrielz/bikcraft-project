@@ -38,23 +38,18 @@
   .partners {
     padding: 3.75rem 0;
   }
-
   .partners h2 {
     margin-bottom: 2rem;
   }
-
   .partners ul {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .partners li {
     padding: 1.25rem;
   }
-
   .partners li:nth-child(n + 3) {
     border-top: 0.125rem solid var(--color-2);
   }
-
   .partners li:nth-child(odd) {
     border-left: none;
   }

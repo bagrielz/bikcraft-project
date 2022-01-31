@@ -45,7 +45,6 @@
   .budget .form {
     grid-template-columns: 1fr;
   }
-
   .form div:nth-child(3),
   .form div:nth-child(4),
   .form button,

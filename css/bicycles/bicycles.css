@@ -85,7 +85,6 @@
   .bicycles-bg:nth-child(3) {
     background: var(--color-11);
   }
-
   .bicycles {
     grid-template-columns: 1fr;
     gap: 1.25rem;
@@ -98,11 +97,9 @@
   .bicycles-info {
     grid-template-columns: 1fr;
   }
-
   .bicycles ul {
     margin-bottom: 2rem;
   }
-
   .bicycles a {
     place-self: start;
   }

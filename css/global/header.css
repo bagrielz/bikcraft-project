@@ -65,17 +65,14 @@
   .header-nav {
     gap: 1.25rem;
   }
-
   .header-nav a {
     background: var(--color-11);
     padding: 0.75rem 1rem;
     border-radius: 0.25rem;
   }
-
   .header-nav a:hover {
     background: var(--color-10);
   }
-
   .header-nav a:after {
     display: none;
   }
@@ -87,11 +84,9 @@
     grid-template-columns: 1fr;
     justify-items: center;
   }
-
   .header-nav {
     gap: 0.75rem;
   }
-
   .header-nav a {
     padding: 0.5rem 0.75rem;
   }
